@@ -30,7 +30,7 @@ def document(title, body, missing=False):
 <meta name="description" content="Andrew Hallam, Quantum Fellow at EPCC, University of Edinburgh. Research in tensor networks, quantum many-body physics, and quantum information.">
 <link rel="canonical" href="{e(profile['site_url'])}/"><meta name="theme-color" content="#fafafa">
 <meta property="og:type" content="website"><meta property="og:title" content="Andrew Hallam | Quantum Fellow"><meta property="og:description" content="Tensor networks, quantum many-body dynamics, and quantum information. EPCC, University of Edinburgh."><meta property="og:image" content="{e(profile['site_url'])}/andrew-hallam.jpg">
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261021c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261021d">
 <script type="application/ld+json">{person}</script></head><body><a class="skip-link" href="#main">Skip to content</a>
 <div class="page"><header class="site-header"><h1><a href="index.html">Andrew Hallam</a></h1><p class="subtitle">Quantum Fellow · EPCC, University of Edinburgh</p><nav aria-label="Main navigation"><a href="index.html#about">About</a><a href="index.html#research">Research</a><a href="index.html#publications">Publications</a><a href="index.html#contact">Contact</a></nav></header>
 <main id="main">{body}</main><footer>© 2026 Andrew Hallam <span>Updated {e(profile['updated'])}</span></footer></div></body></html>'''
