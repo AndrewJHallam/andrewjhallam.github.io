@@ -1,0 +1,355 @@
+[
+  {
+    "id": "entanglement-apparent-thermality-black-holes",
+    "title": "Entanglement and apparent thermality in simulated black holes",
+    "authors": "Iason A. Sofos, Andrew Hallam, and Jiannis K. Pachos",
+    "year": 2026,
+    "venue": "SciPost Physics Core 9, 067",
+    "status": "published",
+    "url": "https://doi.org/10.21468/SciPostPhysCore.9.4.067",
+    "arxiv": "https://arxiv.org/abs/2509.22774",
+    "source_url": "https://arxiv.org/abs/2509.22774",
+    "topics": [
+      "Analogue gravity",
+      "Quantum information"
+    ],
+    "featured": false
+  },
+  {
+    "id": "quantum-many-body-mixed-phase-space",
+    "title": "Quantum many-body mixed phase space revealed by hybrid feedback control",
+    "authors": "Hang Dong, Jie Ren, Andrew Hallam, Han Wang, Zhengyi Cui, Yiren Zou, Junlin Wang, Hekang Li, Qiujiang Guo, Zhen Wang, Lei Ying, and Zlatko Papić",
+    "year": 2026,
+    "venue": "Nature Physics",
+    "status": "published",
+    "url": "https://doi.org/10.1038/s41567-026-03431-z",
+    "arxiv": "https://arxiv.org/abs/2607.14223",
+    "source_url": "https://www.nature.com/articles/s41567-026-03431-z",
+    "topics": [
+      "Quantum dynamics",
+      "Quantum information"
+    ],
+    "featured": true
+  },
+  {
+    "id": "tunable-quantum-mpemba-effect",
+    "title": "Tunable quantum Mpemba effect in long-range interacting systems",
+    "authors": "Andrew Hallam, Matthew Yusuf, Aashish A. Clerk, Ivar Martin, and Zlatko Papić",
+    "year": 2026,
+    "venue": "Physical Review B 114, 125135",
+    "status": "published",
+    "url": "https://doi.org/10.1103/kvth-my1s",
+    "arxiv": "https://arxiv.org/abs/2510.12875",
+    "source_url": "https://journals.aps.org/prb/abstract/10.1103/kvth-my1s",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "simulating-black-hole-thermality-scrambling",
+    "title": "Simulating Black Hole Thermality and Interior Scrambling on a Superconducting Quantum Processor",
+    "authors": "Ryan Smith, Ewan Forbes, Iason A. Sofos, Andrew Hallam, and Jiannis K. Pachos",
+    "year": 2026,
+    "venue": "arXiv:2608.19318",
+    "status": "preprint",
+    "url": "https://arxiv.org/abs/2608.19318",
+    "arxiv": "https://arxiv.org/abs/2608.19318",
+    "source_url": "https://arxiv.org/abs/2608.19318",
+    "topics": [
+      "Analogue gravity",
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "spectral-signatures-nonstabilizerness-criticality",
+    "title": "Spectral signatures of nonstabilizerness and criticality in infinite matrix product states",
+    "authors": "Andrew Hallam, Ryan Smith, and Zlatko Papić",
+    "year": 2026,
+    "venue": "Physical Review B 113, 245113",
+    "status": "published",
+    "url": "https://doi.org/10.1103/77wh-qv29",
+    "arxiv": "https://arxiv.org/abs/2602.15116",
+    "source_url": "https://journals.aps.org/prb/abstract/10.1103/77wh-qv29",
+    "topics": [
+      "Tensor networks",
+      "Quantum information"
+    ],
+    "featured": true
+  },
+  {
+    "id": "ergodicity-breaking-mps-effective-hamiltonians",
+    "title": "Ergodicity breaking in matrix-product-state effective Hamiltonians",
+    "authors": "Andrew Hallam, Jared Jeyaretnam, and Zlatko Papić",
+    "year": 2026,
+    "venue": "arXiv:2603.26870",
+    "status": "preprint",
+    "url": "https://arxiv.org/abs/2603.26870",
+    "arxiv": "https://arxiv.org/abs/2603.26870",
+    "source_url": "https://arxiv.org/abs/2603.26870",
+    "topics": [
+      "Tensor networks",
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "scarfinder",
+    "title": "ScarFinder: A Detector of Optimal Scar Trajectories in Quantum Many-Body Dynamics",
+    "authors": "Jie Ren, Andrew Hallam, Lei Ying, and Zlatko Papić",
+    "year": 2025,
+    "venue": "PRX Quantum 6, 040332",
+    "status": "published",
+    "url": "https://doi.org/10.1103/8g8w-nkwx",
+    "arxiv": "https://arxiv.org/abs/2504.12383",
+    "source_url": "https://journals.aps.org/prxquantum/abstract/10.1103/8g8w-nkwx",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": true
+  },
+  {
+    "id": "nonstabilizerness-rydberg-atom-arrays",
+    "title": "Nonstabilizerness in kinetically constrained Rydberg atom arrays",
+    "authors": "Ryan Smith, Zlatko Papić, and Andrew Hallam",
+    "year": 2025,
+    "venue": "Physical Review B 111, 245148",
+    "status": "published",
+    "url": "https://doi.org/10.1103/jz4d-vdhj",
+    "arxiv": "https://arxiv.org/abs/2406.14348",
+    "source_url": "https://journals.aps.org/prb/abstract/10.1103/jz4d-vdhj",
+    "topics": [
+      "Quantum information",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "optimally-scrambling-chiral-spin-chain",
+    "title": "Optimally scrambling chiral spin-chain with effective black hole geometry",
+    "authors": "Aiden Daniel, Andrew Hallam, Matthew D. Horner, and Jiannis K. Pachos",
+    "year": 2025,
+    "venue": "Scientific Reports 15, 9103",
+    "status": "published",
+    "url": "https://doi.org/10.1038/s41598-025-92760-9",
+    "arxiv": "https://arxiv.org/abs/2404.14473",
+    "source_url": "https://www.nature.com/articles/s41598-025-92760-9",
+    "topics": [
+      "Analogue gravity",
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "quantum-teleportation-binary-black-holes",
+    "title": "Quantum teleportation between simulated binary black holes",
+    "authors": "Aiden Daniel, Tanmay Bhore, Jiannis K. Pachos, Chang Liu, and Andrew Hallam",
+    "year": 2025,
+    "venue": "arXiv:2503.10761",
+    "status": "preprint",
+    "url": "https://arxiv.org/abs/2503.10761",
+    "arxiv": "https://arxiv.org/abs/2503.10761",
+    "source_url": "https://arxiv.org/abs/2503.10761",
+    "topics": [
+      "Analogue gravity",
+      "Quantum information"
+    ],
+    "featured": false
+  },
+  {
+    "id": "stirring-false-vacuum-quantum-annealer",
+    "title": "Stirring the false vacuum via interacting quantized bubbles on a 5,564-qubit quantum annealer",
+    "authors": "Jaka Vodeb, Jean-Yves Desaules, Andrew Hallam, Andrea Rava, Gregor Humar, Dennis Willsch, Fengping Jin, Madita Willsch, Kristel Michielsen, and Zlatko Papić",
+    "year": 2025,
+    "venue": "Nature Physics 21, 386–392",
+    "status": "published",
+    "url": "https://doi.org/10.1038/s41567-024-02765-w",
+    "arxiv": "https://arxiv.org/abs/2406.14718",
+    "source_url": "https://www.nature.com/articles/s41567-024-02765-w",
+    "topics": [
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "integrability-breaking-bound-states-2024",
+    "title": "Integrability breaking and bound states in Google’s decorated XXZ circuits",
+    "authors": "Ana Hudomal, Ryan Smith, Andrew Hallam, and Zlatko Papić",
+    "year": 2024,
+    "venue": "PRX Quantum 5, 010316",
+    "status": "published",
+    "url": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010316",
+    "arxiv": "https://arxiv.org/abs/2307.13042",
+    "topics": [
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "embedding-semiclassical-periodic-orbits-2023",
+    "title": "Embedding semiclassical periodic orbits into chaotic many-body Hamiltonians",
+    "authors": "Andrew Hallam, Jean-Yves Desaules, and Zlatko Papić",
+    "year": 2023,
+    "venue": "Physical Review Letters 131, 110401",
+    "status": "published",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.110401",
+    "arxiv": "https://arxiv.org/abs/2303.01359",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": true
+  },
+  {
+    "id": "bridging-quantum-criticality-2023",
+    "title": "Bridging quantum criticality via many-body scarring",
+    "authors": "Aiden Daniel, Andrew Hallam, Jean-Yves Desaules, Ana Hudomal, Guo-Xian Su, Jad C. Halimeh, and Zlatko Papić",
+    "year": 2023,
+    "venue": "Physical Review B 107, 235108",
+    "status": "published",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.235108",
+    "arxiv": "https://arxiv.org/abs/2301.03631",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "exploring-chiral-spin-chains-2023",
+    "title": "Exploring interacting chiral spin chains in terms of black hole physics",
+    "authors": "Ewan Forbes, Matthew D. Horner, Andrew Hallam, Joseph Barker, and Jiannis K. Pachos",
+    "year": 2023,
+    "venue": "Physical Review B 108, 245142",
+    "status": "published",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.245142",
+    "arxiv": "https://arxiv.org/abs/2305.19169",
+    "topics": [
+      "Analogue gravity",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "classical-simulability-open-quantum-systems-2023",
+    "title": "Phase transitions in the classical simulability of open quantum systems",
+    "authors": "F. Azad, Andrew Hallam, J. Morley, and Andrew G. Green",
+    "year": 2023,
+    "venue": "Scientific Reports 13, 8866",
+    "status": "published",
+    "url": "https://www.nature.com/articles/s41598-023-35336-9",
+    "arxiv": "https://arxiv.org/abs/2111.06408",
+    "topics": [
+      "Tensor networks",
+      "Quantum dynamics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "chiral-spin-chain-event-horizon-2023",
+    "title": "Chiral spin-chain interfaces exhibiting event-horizon physics",
+    "authors": "Matthew D. Horner, Andrew Hallam, and Jiannis K. Pachos",
+    "year": 2023,
+    "venue": "Physical Review Letters 130, 016701",
+    "status": "published",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.016701",
+    "arxiv": "https://arxiv.org/abs/2207.08840",
+    "topics": [
+      "Analogue gravity",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "continuous-time-crystals-many-body-scars-2022",
+    "title": "Tuning between continuous time crystals and many-body scars in long-range spin chains",
+    "authors": "Kieran Bull, Andrew Hallam, Zlatko Papić, and Ivar Martin",
+    "year": 2022,
+    "venue": "Physical Review Letters 129, 140602",
+    "status": "published",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.140602",
+    "arxiv": "https://arxiv.org/abs/2205.02246",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "emergence-gaussianity-interacting-fermions-2021",
+    "title": "Emergence of gaussianity in the thermodynamic limit of interacting fermions",
+    "authors": "Gabriel Matos, Andrew Hallam, Aydin Deger, Zlatko Papić, and Jiannis K. Pachos",
+    "year": 2021,
+    "venue": "Physical Review B 104, L180408",
+    "status": "published",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.L180408",
+    "arxiv": "https://arxiv.org/abs/2107.06906",
+    "topics": [
+      "Quantum information",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "entanglement-compression-scale-space-2020",
+    "title": "Entanglement compression in scale space: From the multiscale entanglement renormalization ansatz to matrix product operators",
+    "authors": "Karel Van Acoleyen, Andrew Hallam, Matthias Bal, Markus Hauru, Jutho Haegeman, and Frank Verstraete",
+    "year": 2020,
+    "venue": "Physical Review B 102, 165131",
+    "status": "published",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.165131",
+    "arxiv": "https://arxiv.org/abs/1912.10572",
+    "topics": [
+      "Tensor networks",
+      "Quantum information"
+    ],
+    "featured": false
+  },
+  {
+    "id": "lyapunov-spectra-quantum-thermalisation-2019",
+    "title": "The Lyapunov spectra of quantum thermalisation",
+    "authors": "Andrew Hallam, J. G. Morley, and Andrew G. Green",
+    "year": 2019,
+    "venue": "Nature Communications 10, 2708",
+    "status": "published",
+    "url": "https://www.nature.com/articles/s41467-019-10336-4",
+    "arxiv": "https://arxiv.org/abs/1806.05204",
+    "topics": [
+      "Quantum dynamics",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "hierarchical-quantum-classifiers-2018",
+    "title": "Hierarchical quantum classifiers",
+    "authors": "Edward Grant, Marcello Benedetti, Shuxiang Cao, Andrew Hallam, Joshua Lockhart, Vid Stojevic, Andrew G. Green, and Simone Severini",
+    "year": 2018,
+    "venue": "npj Quantum Information 4, 65",
+    "status": "published",
+    "url": "https://www.nature.com/articles/s41534-018-0116-9",
+    "arxiv": "https://arxiv.org/abs/1804.03680",
+    "topics": [
+      "Quantum information",
+      "Tensor networks"
+    ],
+    "featured": false
+  },
+  {
+    "id": "compact-neural-networks-mera-2018",
+    "title": "Compact neural networks based on the multiscale entanglement renormalization ansatz",
+    "authors": "Andrew Hallam, Edward Grant, Vid Stojevic, Simone Severini, and Andrew G. Green",
+    "year": 2018,
+    "venue": "British Machine Vision Conference (BMVC 2018)",
+    "status": "published",
+    "url": "https://bmva-archive.org.uk/bmvc/2018/contents/papers/0784.pdf",
+    "arxiv": "https://arxiv.org/abs/1711.03357",
+    "topics": [
+      "Tensor networks"
+    ],
+    "featured": false
+  }
+]

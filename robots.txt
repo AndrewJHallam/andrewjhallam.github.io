@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andrewjhallam.github.io/sitemap.xml

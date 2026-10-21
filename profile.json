@@ -1,0 +1,79 @@
+{
+  "name": "Andrew Hallam",
+  "role": "Quantum Fellow",
+  "department": "EPCC",
+  "institution": "University of Edinburgh",
+  "email": "andrew.hallam@epcc.ed.ac.uk",
+  "alternate_email": "ahallam3@ed.ac.uk",
+  "site_url": "https://andrewjhallam.github.io",
+  "scholar": "https://scholar.google.co.uk/citations?user=1GuZeDkAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/andrew-hallam-185717383/",
+  "github": "https://github.com/AndrewJHallam",
+  "updated": "21 October 2026",
+  "intro": "I study how complex quantum systems evolve, how they store information, and how we can understand them using tensor networks.",
+  "about": [
+    "I am a Quantum Fellow at EPCC, University of Edinburgh. My research connects quantum many-body physics, tensor networks, and quantum information, with a particular interest in dynamics beyond thermal equilibrium.",
+    "I use numerical and analytical approaches to explore quantum chaos, many-body scars, and the structure of entanglement. My work also investigates quantum resources for computation and spin-chain models of curved spacetime.",
+    "Previously, I held postdoctoral positions at the University of Leeds and Ghent University. I completed my PhD in Physics at University College London, supervised by Andrew Green."
+  ],
+  "themes": [
+    {
+      "id": "tensor-networks",
+      "title": "Tensor networks",
+      "short": "Finding tractable descriptions of entanglement and complex quantum states.",
+      "description": "Tensor networks turn the entanglement structure of a quantum state into a practical description. I develop and use matrix product states and related methods to study quantum dynamics, path integrals, and the limits of classical simulation.",
+      "detail": "My work includes path integrals over matrix product states, the relationship between multiscale entanglement renormalization and matrix product operators, and effective descriptions of many-body dynamics.",
+      "topic": "Tensor networks"
+    },
+    {
+      "id": "quantum-dynamics",
+      "title": "Quantum dynamics & chaos",
+      "short": "Understanding thermalisation, many-body scars, and persistent quantum coherence.",
+      "description": "How does an isolated quantum system approach equilibrium, and when does that process fail? I investigate the connection between classical chaos and quantum thermalisation, along with the special trajectories and states that support long-lived coherent motion.",
+      "detail": "Research directions include quantum many-body scars, semiclassical periodic orbits, time crystals, and methods for identifying coherent dynamics within otherwise complex many-body systems.",
+      "topic": "Quantum dynamics"
+    },
+    {
+      "id": "quantum-information",
+      "title": "Quantum information",
+      "short": "Connecting many-body physics with the resources needed for quantum computation.",
+      "description": "Entanglement is only one part of the information structure of quantum matter. I study nonstabilizerness, often called quantum magic, and its relationship to criticality, dynamics, and the difficulty of simulating quantum systems.",
+      "detail": "I have also worked on hierarchical quantum classifiers and tensor-network descriptions of neural networks, exploring connections between quantum information and machine learning.",
+      "topic": "Quantum information"
+    },
+    {
+      "id": "analogue-gravity",
+      "title": "Analogue gravity",
+      "short": "Exploring effective black-hole geometries in interacting spin chains.",
+      "description": "Models that can be studied in condensed matter and on quantum processors can also provide a setting for questions inspired by curved spacetime. I investigate chiral spin chains with effective event horizons and black-hole geometries.",
+      "detail": "This work connects microscopic spin models with scrambling, apparent thermality, and quantum information in simulated black holes.",
+      "topic": "Analogue gravity"
+    }
+  ],
+  "education": [
+    {"dates": "2015–2018", "degree": "PhD in Physics", "institution": "University College London", "detail": "Tensor network descriptions of quantum entanglement in path integrals, thermalisation and machine learning. Supervisor: Andrew Green."},
+    {"dates": "2014–2015", "degree": "MRes in Delivering Quantum Technologies", "institution": "University College London", "detail": "Distinction. Research on tensor-network descriptions of out-of-equilibrium quantum systems."},
+    {"dates": "2010–2014", "degree": "MSci in Physics", "institution": "University College London", "detail": "First class honours. Research on entanglement of trapped ions via measurement."}
+  ],
+  "appointments": [
+    {"dates": "Current", "title": "Quantum Fellow", "institution": "EPCC, University of Edinburgh", "detail": "Quantum many-body physics, tensor networks, and quantum information."},
+    {"dates": "From 2020 · previous", "title": "Postdoctoral Fellow", "institution": "University of Leeds", "detail": "Research with Jiannis Pachos and Zlatko Papić on interacting quantum systems, non-equilibrium dynamics, and effective models of curved spacetime."},
+    {"dates": "2018–2020", "title": "Postdoctoral Fellow", "institution": "Ghent University", "detail": "Research with Jutho Haegeman on matrix-product-state path integrals and entanglement renormalization."}
+  ],
+  "teaching": [
+    "Taught parts of PHYS3003: Advanced Techniques in Theoretical Physics and PHYS5017M: Quantum Many-Body Physics at the University of Leeds.",
+    "Supervised year-long Master’s research projects at Ghent University and the University of Leeds, and co-supervised PhD students at Leeds.",
+    "Received the University of Leeds Mentorship Award for Engineering and Physical Sciences in 2025."
+  ],
+  "service": [
+    "Organised the University of Leeds internal quantum theory seminar and the Leeds–Loughborough–Nottingham non-equilibrium seminar.",
+    "Helped organise QCumber at UCL in 2015 and 2016 and the 24th Symposium on Quantum Matter and High-Energy Physics in 2022.",
+    "Helped deliver a hands-on quantum computing workshop for Year 12 and 13 students through the University of Leeds Reach for Excellence programme."
+  ],
+  "talks": [
+    {"title": "Understanding magic in critical many-body systems", "where": "12th Northern Quantum Meeting, Google", "date": "20 April 2026"},
+    {"title": "Understanding magic in critical many-body systems", "where": "Tensor Network weekly seminar, Google", "date": "6 April 2026"},
+    {"title": "Understanding magic in critical many-body systems", "where": "University of Manchester", "date": "1 April 2026"},
+    {"title": "Connecting many-body magic with quantum criticality with infinite matrix-product states", "where": "Many-Body Quantum Magic, iQuS Seattle", "date": "18–29 August 2025"}
+  ]
+}
