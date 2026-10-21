@@ -39,12 +39,10 @@ career = ''.join(f'<li><span class="career-date">{e(x["dates"])}</span><span>{e(
 career += ''.join(f'<li><span class="career-date">{e(x["dates"])}</span><span>{e(x["degree"])}, {e(x["institution"])}</span></li>' for x in profile['education'])
 research = ''.join(f'<li><strong>{e(t["title"])}.</strong> {e(t["short"])}</li>' for t in profile['themes'])
 papers = ''.join(publication(p) for p in publications)
-teaching = ''.join(f'<p>{e(x)}</p>' for x in profile['teaching'])
 body = f'''
 <section id="about" class="about"><div class="about-copy"><p class="intro">I am a Quantum Fellow at <a href="https://www.epcc.ed.ac.uk/">EPCC</a>, University of Edinburgh. My research connects quantum many-body physics, tensor networks, and quantum information.</p><p>{e(profile['intro'])}</p><h2>Career</h2><ul class="career">{career}</ul></div><figure class="portrait"><img src="andrew-hallam.jpg" alt="Andrew Hallam" width="1200" height="1597" fetchpriority="high"><figcaption><a href="{e(profile['scholar'])}">Google Scholar</a><span aria-hidden="true"> · </span><a href="{e(profile['arxiv'])}">arXiv</a><span aria-hidden="true"> · </span><a href="{e(profile['linkedin'])}">LinkedIn</a></figcaption></figure></section>
 <section id="research"><h2>Research</h2><p>{e(profile['research_intro'])}</p><ul class="research-list">{research}</ul></section>
 <section id="publications"><h2>Publications &amp; preprints</h2><p>A list of my research papers is below. You can also find my work on <a href="{e(profile['arxiv'])}">arXiv</a> and <a href="{e(profile['scholar'])}">Google Scholar</a>.</p><ol class="publications">{papers}</ol></section>
-<section id="teaching"><h2>Teaching &amp; supervision</h2>{teaching}<p>I have also organised quantum theory and non-equilibrium seminars, helped organise academic conferences, and contributed to the University of Leeds Reach for Excellence programme.</p></section>
 <section id="contact"><h2>Contact</h2><p>EPCC, University of Edinburgh<br><a href="mailto:{e(profile['email'])}">{e(profile['email'])}</a><br><a href="mailto:{e(profile['alternate_email'])}">{e(profile['alternate_email'])}</a></p><p class="profile-links"><a href="{e(profile['scholar'])}">Google Scholar</a><a href="{e(profile['arxiv'])}">arXiv</a><a href="{e(profile['github'])}">GitHub</a><a href="{e(profile['linkedin'])}">LinkedIn</a></p></section>'''
 
 (ROOT/'index.html').write_text(document('Andrew Hallam | Quantum Fellow',body),encoding='utf-8')
