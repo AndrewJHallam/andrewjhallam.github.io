@@ -1,11 +1,11 @@
 @charset "UTF-8";
 :root {
-  --background: #f8f8f5;
+  --background: #fafafa;
   --ink: #293d32;
   --text: #3f4741;
   --muted: #677167;
   --link: #8e3e2b;
-  --line: #dce0d7;
+  --line: #dedede;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 28px; }

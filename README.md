@@ -23,19 +23,6 @@ The script writes `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, and `.n
 
 The page includes the complete numbered bibliography, ordered by year. Publications within a year follow the order in `publications.json`, so move entries to change that order.
 
-## Update the downloadable CV
-
-`make_public_cv.py` generates the public PDF using ReportLab:
-
-```sh
-python3 -m pip install reportlab
-python3 make_public_cv.py
-```
-
-The PDF uses the bibliography in `publications.json`. Its other professional details are embedded in `make_public_cv.py`; update them alongside `profile.json` when a role or contact detail changes. The original supplied CV is not needed to rebuild the public version.
-
-The public CV intentionally excludes the home address, phone number, and obsolete Leeds email. The Edinburgh appointment's start date and the Leeds appointment's end date were not supplied; the current role is undated and Leeds is marked as a previous appointment starting in 2020. Add exact dates to both source files when available.
-
 ## Preview locally
 
 ```sh
@@ -60,18 +47,18 @@ git commit -m "Update academic website"
 git push
 ```
 
-Run `python3 make_public_cv.py` too whenever the downloadable CV needs updating. GitHub Pages publishes commits to the configured source automatically.
+GitHub Pages publishes commits to the configured source automatically.
 
-When uploading through GitHub in a browser, upload the rebuilt files to the root of `main`. Include `index.html`, `styles.css`, the portrait, public CV PDF, favicon, and the generated support files. Keep the editable sources in the repository so future changes can be rebuilt.
+When uploading through GitHub in a browser, upload the rebuilt files to the root of `main`. Include `index.html`, `styles.css`, the portrait, favicon, and the generated support files. Keep the editable sources in the repository so future changes can be rebuilt.
 
 If you add a custom domain, update `site_url` in `profile.json`, rebuild, and configure the domain in GitHub Pages settings.
 
 ## Content sources
 
-Initial content was adapted from the supplied 2026 CV, current role and contact details supplied directly by Andrew, and primary publication records checked on 21 October 2026. The bibliography has 23 distinct works and links to journal/DOI and arXiv records. It includes three newer works absent from the supplied CV, and updates several preprints to their journal versions. It excludes duplicate Scholar entries and does not display citation counts.
+Initial content was adapted from the supplied 2026 CV and recent research proposal, current role and contact details supplied directly by Andrew, and primary publication records checked on 21 October 2026. The bibliography has 23 distinct works and links to journal/DOI and arXiv records. It includes three newer works absent from the supplied CV, and updates several preprints to their journal versions. It excludes duplicate Scholar entries and does not display citation counts.
 
-Research summaries are drafted for this site and should be reviewed as you refine your academic profile. Google Scholar, LinkedIn, and GitHub links use the profiles supplied by Andrew. The LinkedIn page was not accessible during drafting, so it was used only as a profile link.
+Research summaries are drafted for this site and should be reviewed as you refine your academic profile. Google Scholar, LinkedIn, and GitHub links use the profiles supplied by Andrew. The arXiv link uses the author search linked from his paper records. The LinkedIn page was not accessible during drafting, so it was used only as a profile link.
 
 ## Files and privacy
 
-The hosted files contain professional information only. Keep original CVs and other private documents outside this repository. The resized portrait has no EXIF metadata. There are no analytics, contact forms, external fonts, third-party scripts, or cookies added by this website. Hosting providers may have their own logging policies.
+The hosted files contain professional information only. No CV PDF is published. Keep original CVs and other private documents outside this repository. The resized portrait has no EXIF metadata. There are no analytics, contact forms, external fonts, third-party scripts, or cookies added by this website. Hosting providers may have their own logging policies.
