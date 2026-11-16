@@ -32,16 +32,25 @@ def document(title, body, missing=False):
 <meta property="og:type" content="website"><meta property="og:title" content="Andrew Hallam | Quantum Fellow"><meta property="og:description" content="Tensor networks, quantum many-body dynamics, and quantum information. EPCC, University of Edinburgh."><meta property="og:image" content="{e(profile['site_url'])}/andrew-hallam.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=20261021d">
 <script type="application/ld+json">{person}</script></head><body><a class="skip-link" href="#main">Skip to content</a>
-<div class="page"><header class="site-header"><h1><a href="index.html">Andrew Hallam</a></h1><p class="subtitle">Quantum Fellow · EPCC, University of Edinburgh</p><nav aria-label="Main navigation"><a href="index.html#about">About</a><a href="index.html#research">Research</a><a href="index.html#publications">Publications</a><a href="index.html#contact">Contact</a></nav></header>
+<div class="page"><header class="site-header"><h1><a href="index.html">Andrew Hallam</a></h1><p class="subtitle">Quantum Fellow · EPCC, University of Edinburgh</p><nav aria-label="Main navigation"><a href="index.html#about">About</a><a href="index.html#research">Research</a><a href="index.html#resources">Resources</a><a href="index.html#publications">Publications</a><a href="index.html#contact">Contact</a></nav></header>
 <main id="main">{body}</main><footer>© 2026 Andrew Hallam <span>Updated {e(profile['updated'])}</span></footer></div></body></html>'''
 
 career = ''.join(f'<li><span class="career-date">{e(x["dates"])}</span><span>{e(x["title"])}, {e(x["institution"])}</span></li>' for x in profile['appointments'])
 career += ''.join(f'<li><span class="career-date">{e(x["dates"])}</span><span>{e(x["degree"])}, {e(x["institution"])}</span></li>' for x in profile['education'])
 research = ''.join(f'<li><strong>{e(t["title"])}.</strong> {e(t["short"])}</li>' for t in profile['themes'])
 papers = ''.join(publication(p) for p in publications)
+resource_items = []
+for item in profile.get('resources', []):
+    links = ' · '.join(
+        '<a href="' + e(link['url']) + '"' + (' download' if link.get('download') else '') + '>' + e(link['label']) + '</a>'
+        for link in item['links']
+    )
+    resource_items.append(f'<li><strong>{e(item["title"])}.</strong> {e(item["description"])}<br>{links}</li>')
+resources = ''.join(resource_items)
 body = f'''
 <section id="about" class="about"><div class="about-copy"><p class="intro">I am a Quantum Fellow at <a href="https://www.epcc.ed.ac.uk/">EPCC</a>, University of Edinburgh. My research connects quantum many-body physics, tensor networks, and quantum information.</p><p>{e(profile['intro'])}</p><h2>Career</h2><ul class="career">{career}</ul></div><figure class="portrait"><img src="andrew-hallam.jpg" alt="Andrew Hallam" width="1200" height="1597" fetchpriority="high"><figcaption><a href="{e(profile['scholar'])}">Google Scholar</a><span aria-hidden="true"> · </span><a href="{e(profile['arxiv'])}">arXiv</a><span aria-hidden="true"> · </span><a href="{e(profile['linkedin'])}">LinkedIn</a></figcaption></figure></section>
 <section id="research"><h2>Research</h2><p>{e(profile['research_intro'])}</p><ul class="research-list">{research}</ul></section>
+<section id="resources"><h2>Resources</h2><ul class="research-list">{resources}</ul></section>
 <section id="publications"><h2>Publications &amp; preprints</h2><p>A list of my research papers is below. You can also find my work on <a href="{e(profile['arxiv'])}">arXiv</a> and <a href="{e(profile['scholar'])}">Google Scholar</a>.</p><ol class="publications">{papers}</ol></section>
 <section id="contact"><h2>Contact</h2><p>EPCC, University of Edinburgh<br><a href="mailto:{e(profile['email'])}">{e(profile['email'])}</a><br><a href="mailto:{e(profile['alternate_email'])}">{e(profile['alternate_email'])}</a></p><p class="profile-links"><a href="{e(profile['scholar'])}">Google Scholar</a><a href="{e(profile['arxiv'])}">arXiv</a><a href="{e(profile['github'])}">GitHub</a><a href="{e(profile['linkedin'])}">LinkedIn</a></p></section>'''
 

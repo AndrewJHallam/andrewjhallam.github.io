@@ -8,7 +8,7 @@ Website address: <https://andrewjhallam.github.io/>
 
 The website is one plain HTML page with a separate stylesheet. A small Python script generates it from two editable data files. No framework, package manager, JavaScript, or Python packages are needed to build the website.
 
-- `profile.json`: biography, current role, email addresses, research summaries, appointments, education, teaching, and selected talks.
+- `profile.json`: biography, current role, email addresses, research summaries, appointments, education, and resource links.
 - `publications.json`: publication titles, authors, years, journal citations, and paper links.
 - `styles.css`: colours, typography, spacing, mobile layouts, and print styles.
 - `andrew-hallam.jpg`: the website portrait, resized from the supplied photograph with permission.
@@ -22,6 +22,17 @@ python3 build.py
 The script writes `index.html`, `404.html`, `sitemap.xml`, `robots.txt`, and `.nojekyll`. Commit the generated files along with your source changes. Changes made directly to generated HTML will be overwritten the next time the script runs.
 
 The page includes the complete numbered bibliography, ordered by year. Publications within a year follow the order in `publications.json`, so move entries to change that order.
+
+## Notes and notebook
+
+The Resources section links to `tensor-network-methods.pdf` and a self-contained introductory Python notebook:
+
+- `tensor-networks-notebook.html`: the existing HTML export, for reading the explanations and saved outputs in a browser.
+- `tensor-networks-notebook.ipynb`: the original notebook, for downloading and running in Jupyter.
+
+Both notebook copies contain their diagrams, so there are no additional asset folders to upload. The interactive image slider needs a live Jupyter kernel; the online reading copy shows the saved example. The notebook uses NumPy, Pillow, and ipywidgets and includes a dependency setup cell. Hosting does not execute notebook cells.
+
+To update the tutorial, replace both notebook files with matching versions and retain these filenames. Resource titles, descriptions, and links are editable in `profile.json`.
 
 ## Preview locally
 

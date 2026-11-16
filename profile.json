@@ -9,7 +9,7 @@
   "scholar": "https://scholar.google.co.uk/citations?user=1GuZeDkAAAAJ&hl=en",
   "linkedin": "https://www.linkedin.com/in/andrew-hallam-185717383/",
   "github": "https://github.com/AndrewJHallam",
-  "updated": "21 October 2026",
+  "updated": "16 November 2026",
   "intro": "I develop tensor-network methods to study complex quantum systems and understand the possibilities and limits of quantum simulation.",
   "about": [
     "I am a Quantum Fellow at EPCC, University of Edinburgh. My research connects quantum many-body physics, tensor networks, and quantum information, with a particular interest in dynamics beyond thermal equilibrium.",
@@ -106,5 +106,32 @@
     }
   ],
   "arxiv": "https://arxiv.org/search/quant-ph?query=Hallam%2C+A&searchtype=author",
-  "research_intro": "My work explores how quantum systems evolve, how their complexity can be described, and what this means for quantum computation. My interests include:"
+  "research_intro": "My work explores how quantum systems evolve, how their complexity can be described, and what this means for quantum computation. My interests include:",
+  "resources": [
+    {
+      "title": "Tensor network notes",
+      "description": "Notes on tensor-network methods and matrix product states.",
+      "links": [
+        {
+          "label": "Read notes (PDF)",
+          "url": "tensor-network-methods.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Introduction to tensor networks",
+      "description": "A hands-on Python notebook on tensor contractions, matrix product states, and basic tensor-network algorithms. Download it to run the examples in Jupyter.",
+      "links": [
+        {
+          "label": "Read online",
+          "url": "tensor-networks-notebook.html"
+        },
+        {
+          "label": "Download notebook (.ipynb)",
+          "url": "tensor-networks-notebook.ipynb",
+          "download": true
+        }
+      ]
+    }
+  ]
 }
