@@ -1,5 +1,21 @@
 [
   {
+    "id": "quantum-snapshot-thermometry-2026",
+    "title": "Reconstructing hidden observables via quantum snapshot thermometry",
+    "authors": "Jie Ren, Andrew Hallam, Luheng Zhao, Huanqian Loh, and Zlatko Papić",
+    "year": 2026,
+    "venue": "arXiv:2610.40652",
+    "status": "preprint",
+    "url": "https://arxiv.org/abs/2610.40652",
+    "arxiv": "https://arxiv.org/abs/2610.40652",
+    "source_url": "https://arxiv.org/abs/2610.40652",
+    "topics": [
+      "Quantum dynamics",
+      "Quantum information"
+    ],
+    "featured": false
+  },
+  {
     "id": "entanglement-apparent-thermality-black-holes",
     "title": "Entanglement and apparent thermality in simulated black holes",
     "authors": "Iason A. Sofos, Andrew Hallam, and Jiannis K. Pachos",
@@ -20,7 +36,7 @@
     "title": "Quantum many-body mixed phase space revealed by hybrid feedback control",
     "authors": "Hang Dong, Jie Ren, Andrew Hallam, Han Wang, Zhengyi Cui, Yiren Zou, Junlin Wang, Hekang Li, Qiujiang Guo, Zhen Wang, Lei Ying, and Zlatko Papić",
     "year": 2026,
-    "venue": "Nature Physics",
+    "venue": "Nature Physics 22 (11)",
     "status": "published",
     "url": "https://doi.org/10.1038/s41567-026-03431-z",
     "arxiv": "https://arxiv.org/abs/2607.14223",
@@ -29,7 +45,8 @@
       "Quantum dynamics",
       "Quantum information"
     ],
-    "featured": true
+    "featured": true,
+    "issue_url": "https://www.nature.com/nphys/volumes/22/issues/11"
   },
   {
     "id": "tunable-quantum-mpemba-effect",

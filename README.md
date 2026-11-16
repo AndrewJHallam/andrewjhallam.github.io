@@ -66,10 +66,12 @@ If you add a custom domain, update `site_url` in `profile.json`, rebuild, and co
 
 ## Content sources
 
-Initial content was adapted from the supplied 2026 CV and recent research proposal, current role and contact details supplied directly by Andrew, and primary publication records checked on 21 October 2026. The bibliography has 23 distinct works and links to journal/DOI and arXiv records. It includes three newer works absent from the supplied CV, and updates several preprints to their journal versions. It excludes duplicate Scholar entries and does not display citation counts.
+Initial content was adapted from the supplied 2026 CV and recent research proposal, current role and contact details supplied directly by Andrew, and primary publication records checked on 21 October 2026. The bibliography has 24 distinct works and links to journal/DOI and arXiv records. It includes additional work absent from the supplied CV, and updates several preprints to their journal versions. It excludes duplicate Scholar entries and does not display citation counts.
 
 Research summaries are drafted for this site and should be reviewed as you refine your academic profile. Google Scholar, LinkedIn, and GitHub links use the profiles supplied by Andrew. The arXiv link uses the author search linked from his paper records. The LinkedIn page was not accessible during drafting, so it was used only as a profile link.
 
 ## Files and privacy
 
 The hosted files contain professional information only. No CV PDF is published. Keep original CVs and other private documents outside this repository. The resized portrait has no EXIF metadata. There are no analytics, contact forms, external fonts, third-party scripts, or cookies added by this website. Hosting providers may have their own logging policies.
+
+The publication list was checked against current arXiv, Google Scholar, and publisher records on 16 November 2026. The October 2026 snapshot-thermometry preprint has been added, and the hybrid-feedback paper is listed in Nature Physics volume 22, issue 11.
